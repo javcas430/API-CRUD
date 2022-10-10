@@ -1,0 +1,8 @@
+
+version: "3"
+services:
+  apiaws:
+    container_name: apiaws
+    image: user-fastapi:latest
+    ports:
+      - "8000:80"
